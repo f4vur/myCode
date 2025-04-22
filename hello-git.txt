@@ -1,1 +1,3 @@
 Hello Git Test
+
+First day of coding class
