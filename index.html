@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="styles.css" <head>
+<meta charset="UTF-8">
+<title>The Forms</title>
+</head>
+
+<body>
+    <header>
+        <h1 style="text-align:center;">PERSONAL INFORMATION FORM</h1>
+        <p style="text-align:center; font-size:15px">
+        </p>
+        <br>
+        <br>
+    </header>
+
+    <form>
+        <label for="title">Title</label>
+        <select id="title" name="title">
+            <option value="mr">Mr</option>
+            <option value="mrs">Mrs</option>
+            <option value="ms">Ms</option>
+            <option value="dr">Dr</option>
+            <option value="prof">Prof</option>
+            <option value="other">Other</option>
+        </select>
+    </form>
+    <br>
+    <br>
+    <section id="name" style="background-color:powderblue;">
+        <br>
+        <p style="font-size:15px" ;><strong>
+                Fill in your name below:</p></strong></p>
+        <form>
+            <label for="fname">First Name:</label><br>
+            <input type="text" id="fname" name="dname" required><br>
+            <br>
+            <label for="" lname">Last Name:</label><br>
+            <input type="text" id="lname" name="lname" required><br> 
+            <br>
+        </form>
+    </section>
+    <br>
+    <br>
+
+    <section id="gender" style="background-color:white;">
+        <br>
+        <h2>Gender</h2>
+        <p>To which gender identity do you most identify?</p>
+        <form >
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label><br>
+            <input type="radio" id="Female" name="gender" value="Female">
+            <label for="female">Female</label><br>
+            <input type="radio" id="prefer not to say" name="gender" 
+            value="Prefer not to say">
+            <label for="prefer not to say">Prefer not to say</label><br>
+            <br>
+        </form>
+    </section>
+    <br>
+    <br>
+    <form>
+        <label for="birthday">Date of Birth</label>
+        <input type="date" id="birthday" name="birthday">
+    </form>
+    
+    <br>
+    <br>
+    <form>
+        <label for="myfile">Upload your CV:<br></label>
+        <input type="file" id="myfile" name="myfile">
+    </form>
+    <br>
+    <br>
+    
+    <section>
+        <form>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+   
+</body>
+
+</html>
